@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>gumi278 Blog</title>
+        <link>https://gumi278.quuix.org/blog</link>
+        <description>gumi278 Blog</description>
+        <lastBuildDate>Tue, 11 Nov 2025 20:25:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>ja</language>
+        <item>
+            <title><![CDATA[ニンニクのホイル焼き]]></title>
+            <link>https://gumi278.quuix.org/blog/001107A</link>
+            <guid>https://gumi278.quuix.org/blog/001107A</guid>
+            <pubDate>Tue, 11 Nov 2025 20:25:00 GMT</pubDate>
+            <description><![CDATA[冷蔵庫に眠っているニンニクを見つけました。]]></description>
+            <content:encoded><![CDATA[<p>冷蔵庫に眠っているニンニクを見つけました。</p>
+<!-- -->
+<p>今が旬なのかな？</p>
+<p>わかんないけど、寒くなってきたし、こういうのが食べたいから買ってきたんだってさ。</p>
+<p>生ニンニクかあ〜、面倒だなあ…</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ニンニクのホイル焼き">ニンニクのホイル焼き<a href="https://gumi278.quuix.org/blog/001107A#%E3%83%8B%E3%83%B3%E3%83%8B%E3%82%AF%E3%81%AE%E3%83%9B%E3%82%A4%E3%83%AB%E7%84%BC%E3%81%8D" class="hash-link" aria-label="ニンニクのホイル焼き への直接リンク" title="ニンニクのホイル焼き への直接リンク">​</a></h2>
+<p>居酒屋で出てきたことがあったのを思い出した。
+あれならすぐできるんじゃない？と思ったので、AI に聞いて作ってみることにした。</p>
+<img src="https://gumi278.quuix.org/blog/001107A-ai01.png" alt="AIとの会話" class="with-border">
+<p>毎回「いい質問」っていうよね、AI 的な挨拶なのかな？</p>
+<p>アルミホイルで包まれて「ホイル焼き」されたものを聞いたつもりが、ボイル焼きになってたけど 気にしない
+（意図としては伝わってた、電子レンジに金属を入れたら危ないのはわかってるから、それに気を取られてタイプミスしたのかも）。</p>
+<p>気密性がポイントのようです。</p>
+<img src="https://gumi278.quuix.org/blog/001107A-ai02.png" alt="AIとの会話" class="with-border">
+<p>気密性が高くてガッチリした容器はないんで、ラップで３重にガッチリ巻きました。</p>
+<p>だけど、蒸気を意図的に作るんだし、オリーブオイルも入れるんでしょ？
+ちょっとでも漏れたら、たちまち電子レンジが ニンニクとオリーブオイルの蒸着洗礼を受けることになる。</p>
+<p>まあいいかあ、週末にでもオーブンとして使って焼き切れば OK.</p>
+<p>寒いから？なかなか蒸しあがらない。
+でもいきなり長い時間を指定するのもよくないので、少しずつです。</p>
+<p>「指で押して確かめる」は無理。
+熱くてさわれない。ので、箸ではよくわかんなかったから、爪楊枝の手持ちの方で突っついて確認。</p>
+<p>結局、蒸気はダダ漏れでした。</p>
+<img src="https://gumi278.quuix.org/blog/001107A-ai03.png" alt="AIとの会話" class="with-border">
+<p>塩を最初から入れてたのですが、最後に一振りの方が良かったみたいです
+（よくみたらそう書いてあった）。</p>
+<p>ニンニクの皮って結構取れづらいのですが、蒸してからだと簡単に取れました。
+これなら楽かも。</p>
+<p>急だったので時間がなくて焼き目は付けなかったけど、なかなか好評でした！</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="スクリプトの動作確認">スクリプトの動作確認<a href="https://gumi278.quuix.org/blog/001107A#%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%81%AE%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D" class="hash-link" aria-label="スクリプトの動作確認 への直接リンク" title="スクリプトの動作確認 への直接リンク">​</a></h2>
+<p>実はスクリプトの動作確認を兼ねてました。</p>
+<p>AI との会話を固定サイズ指定した Web ブラウザ越しにスクリーンショットで撮って、固定位置で crop するスクリプトを作ったので、その動作確認も兼ねて。
+macOS 環境は こういうことはやりやすいのかな？
+Windows でもできるんだと思いますが、あんまり詳しくないです。</p>
+<p>これなら一節の区切りまでが画面に収まらない場合の連結でも、１つずつ載せる場合でも使い回しが効いていい感じ。</p>
+<div><p class="contact">指摘や感想などあれば、<a href="https://github.com/gumi278/gumi278.github.io/issues">issue</a> までお願いします！</p></div>
+<div class="disclaimer"><p>本記事で使用しているスクリーンショットは、OpenAI の対話型 AI との実際の会話画面を記録したものです。 掲載内容は AI が生成した回答を含み、正確性・完全性を保証するものではありません。</p></div>]]></content:encoded>
+            <category>AI</category>
+            <category>料理</category>
+        </item>
+        <item>
+            <title><![CDATA[AIとの会話を利用するということ]]></title>
+            <link>https://gumi278.quuix.org/blog/001111A</link>
+            <guid>https://gumi278.quuix.org/blog/001111A</guid>
+            <pubDate>Tue, 11 Nov 2025 20:14:00 GMT</pubDate>
+            <description><![CDATA[私が使っているAIの利用許諾の理解を進めました。]]></description>
+            <content:encoded><![CDATA[<p>私が使っているAIの利用許諾の理解を進めました。</p>
+<!-- -->
+<p>よく利用している対話型 AI。
+ここでもよく引用していますが、「一般常識的な範疇での利用なら問題なし」みたいな、ふわっとした感じで使っていました。</p>
+<p>でも今後は今以上に多く利用しそうです。
+なので、利用許諾とか法務的な扱いってどうなんだろ？と思って調べました。</p>
+<p>私が使っているのは OpenAI の対話型 AI ですが、他のは利用規約が異なるはずです。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="自己責任でどうぞ">自己責任でどうぞ<a href="https://gumi278.quuix.org/blog/001111A#%E8%87%AA%E5%B7%B1%E8%B2%AC%E4%BB%BB%E3%81%A7%E3%81%A9%E3%81%86%E3%81%9E" class="hash-link" aria-label="自己責任でどうぞ への直接リンク" title="自己責任でどうぞ への直接リンク">​</a></h2>
+<img src="https://gumi278.quuix.org/blog/001111A-ai01.png" alt="AIとの会話" class="with-border">
+<p>結構長い。要約すると…</p>
+<ul>
+<li>出力はユーザー帰属するので、公開と引用はあなたの自由</li>
+<li>UI は OpenAI のものだから注意ね</li>
+</ul>
+<p>よくある「権利確保しつつ使わせたい」っていう感じじゃないですね、割り切ってる印象。</p>
+<p>ただ、スクリーンショットで扱う場合は気をつける必要があるようです。</p>
+<img src="https://gumi278.quuix.org/blog/001111A-ai02.png" alt="AIとの会話" class="with-border">
+<p>長いんで要約して確認。</p>
+<img src="https://gumi278.quuix.org/blog/001111A-ai03.png" alt="AIとの会話" class="with-border">
+<p>よくある一般常識の範囲に収まる内容です。</p>
+<ul>
+<li>そのままつかってそのままの意図なら問題なし</li>
+<li>加工するなら意図を曲げないで</li>
+<li>私物化すんな</li>
+</ul>
+<p>使ってて思うのは、１：１の対話の特徴なのでしょうか？
+会話が発展して続くように案内したり、例を示したりしてくれることが多いと感じます。
+つまり、その場での対話なら違和感はないのですが、公開した場合の「第三者目線」からすると不要な部分も多く含まれます。</p>
+<p>そういうのってノイズだから、トリミングしたい。</p>
+<img src="https://gumi278.quuix.org/blog/001111A-ai04.png" alt="AIとの会話" class="with-border">
+<p>基本的にはいいみたい。
+だけど、歪曲してたらどうするんだろう？</p>
+<img src="https://gumi278.quuix.org/blog/001111A-ai05.png" alt="AIとの会話" class="with-border">
+<img src="https://gumi278.quuix.org/blog/001111A-ai06.png" alt="AIとの会話" class="with-border">
+<p>著作権は自分だから、責任も自分、ということですね。
+わかりやすい。</p>
+<p>今後のことを考えて、注意事項みたいなのを作って配置しました。
+時々見かけます、こういうことだったのですね。</p>
+<div><p class="contact">指摘や感想などあれば、<a href="https://github.com/gumi278/gumi278.github.io/issues">issue</a> までお願いします！</p></div>
+<div class="disclaimer"><p>本記事で使用しているスクリーンショットは、OpenAI の対話型 AI との実際の会話画面を記録したものです。 掲載内容は AI が生成した回答を含み、正確性・完全性を保証するものではありません。</p></div>]]></content:encoded>
+            <category>AI</category>
+            <category>法務</category>
+        </item>
+        <item>
+            <title><![CDATA[Discordの接続]]></title>
+            <link>https://gumi278.quuix.org/blog/001104A</link>
+            <guid>https://gumi278.quuix.org/blog/001104A</guid>
+            <pubDate>Sun, 09 Nov 2025 05:41:00 GMT</pubDate>
+            <description><![CDATA[Discord の「接続」で domain を登録しました。]]></description>
+            <content:encoded><![CDATA[<p>Discord の「接続」で domain を登録しました。</p>
+<!-- -->
+<p>今現在は github のユーザーページのリポジトリを使っていて、独自ドメインのルートにリポジトリの gh-pages ブランチをマッピングしてもらってます。</p>
+<p>この環境でリーチする方法って何があって、何ができるのか試しておきたい、という考えから 登録してみました。</p>
+<p>html 構造の構築は docusaurus を使っています。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="方法は２つ">方法は２つ<a href="https://gumi278.quuix.org/blog/001104A#%E6%96%B9%E6%B3%95%E3%81%AF%EF%BC%92%E3%81%A4" class="hash-link" aria-label="方法は２つ への直接リンク" title="方法は２つ への直接リンク">​</a></h2>
+<ul>
+<li>DNS の TXT レコードで特定のテキストを登録する方法</li>
+<li>指定の URL に指定のテキストが入ったファイルを置く方法</li>
+</ul>
+<p>AI は DNS の TXT レコードを登録する方法をめっちゃ薦めてくるんだけど…</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ファイルを置く方法を選択">ファイルを置く方法を選択<a href="https://gumi278.quuix.org/blog/001104A#%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E7%BD%AE%E3%81%8F%E6%96%B9%E6%B3%95%E3%82%92%E9%81%B8%E6%8A%9E" class="hash-link" aria-label="ファイルを置く方法を選択 への直接リンク" title="ファイルを置く方法を選択 への直接リンク">​</a></h2>
+<p>メールを独自ドメインで使っているので、ファイルを置くことにしました。</p>
+<p>当初は「 github の独自ドメインで CNAME ファイルを置くから、それと同じでしょ」と考えていましたが、<code>npx gh-pages</code> から無視されてしまいました
+（ github 用のパッケージなので Discord の都合を知らないのです、よく考えたら当たり前ですね）。</p>
+<p>というわけで、<code>npx gh-pages</code> から卒業します。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="git-転送が必要">git 転送が必要<a href="https://gumi278.quuix.org/blog/001104A#git-%E8%BB%A2%E9%80%81%E3%81%8C%E5%BF%85%E8%A6%81" class="hash-link" aria-label="git 転送が必要 への直接リンク" title="git 転送が必要 への直接リンク">​</a></h3>
+<p>github なので、html であっても git 管理です。</p>
+<p>つまり docusaurus の「毎回ビルド結果生成」に git を合わせる必要があるので、自前スクリプトを作りました。
+マイルール全開ですが、よかったら何かの参考にどうぞ。</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-background-color:hsl(230, 1%, 98%);--prism-color:hsl(230, 8%, 24%)"><div class="codeBlockTitle_OeMC">deploy.zsh</div><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="background-color:hsl(230, 1%, 98%);color:hsl(230, 8%, 24%)"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token shebang important" style="color:hsl(230, 8%, 24%);font-weight:bold">#!/bin/zsh</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token builtin class-name" style="color:hsl(35, 99%, 36%)">cd</span><span class="token plain"> </span><span class="token string" style="color:hsl(119, 34%, 47%)">"</span><span class="token string variable" style="color:hsl(221, 87%, 60%)">${ATELIER_HOME}</span><span class="token string" style="color:hsl(119, 34%, 47%)">/gumi278/build"</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token function" style="color:hsl(221, 87%, 60%)">git</span><span class="token plain"> init</span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token variable" style="color:hsl(221, 87%, 60%)">${ATELIER_HOME}</span><span class="token plain">/firm/gumi278.zsh</span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token function" style="color:hsl(221, 87%, 60%)">cp</span><span class="token plain"> </span><span class="token string" style="color:hsl(119, 34%, 47%)">"</span><span class="token string variable" style="color:hsl(221, 87%, 60%)">${ATELIER_HOME}</span><span class="token string" style="color:hsl(119, 34%, 47%)">/.gitignore"</span><span class="token plain"> ./</span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token function" style="color:hsl(221, 87%, 60%)">git</span><span class="token plain"> </span><span class="token function" style="color:hsl(221, 87%, 60%)">add</span><span class="token plain"> </span><span class="token parameter variable" style="color:hsl(221, 87%, 60%)">-A</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token function" style="color:hsl(221, 87%, 60%)">git</span><span class="token plain"> commit </span><span class="token parameter variable" style="color:hsl(221, 87%, 60%)">-m</span><span class="token plain"> </span><span class="token string" style="color:hsl(119, 34%, 47%)">"custom deploy"</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token function" style="color:hsl(221, 87%, 60%)">git</span><span class="token plain"> remote </span><span class="token function" style="color:hsl(221, 87%, 60%)">add</span><span class="token plain"> origin git@github.com:gumi278/gumi278.github.io.git</span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token function" style="color:hsl(221, 87%, 60%)">git</span><span class="token plain"> push </span><span class="token parameter variable" style="color:hsl(221, 87%, 60%)">--force</span><span class="token plain"> origin main:gh-pages</span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token function" style="color:hsl(221, 87%, 60%)">rm</span><span class="token plain"> </span><span class="token parameter variable" style="color:hsl(221, 87%, 60%)">-rf</span><span class="token plain"> .git</span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token builtin class-name" style="color:hsl(35, 99%, 36%)">exit</span><span class="token plain"> </span><span class="token number" style="color:hsl(35, 99%, 36%)">0</span><br></span></code></pre></div></div>
+<ul>
+<li><code>build</code> ディレクトリは毎回作り直しなので、git も毎回初期化してます</li>
+<li><code>ATELIER_HOME</code> は <code>.zshrc</code> で定義しているユーザーグローバルな環境変数（絶対パス）です</li>
+<li>全ての開発に共通する場所として <code>ATELIER_HOME</code> を使っています</li>
+<li>開発ディレクトリは <code>ATELIER_HOME</code> の下ではなく、外にあります（断絶するため）</li>
+<li><code>WORK_HOME</code> でもいいんだけど、揮発性が高い印象が…（間違えて消しそう）</li>
+<li><code>DEV_HOME</code> はそれぞれの開発ディレクトリの <code>.envrc</code> でそれぞれの開発ディレクトリルートを定義するルールにしてるのでダメ</li>
+<li>全ての開発に共通するといっても 全部混ぜた管理をしているのではなくて、どちらかと言うと隔離場所の扱いです（<code>.gitignore</code> や <code>.git/info/exclude</code> は原理的に完全ではない）</li>
+<li>そしてどこにも居場所がないファイルたちも集まってきた（ github のユーザーページもこちらにきた）</li>
+<li>github のユーザーページは開発ディレクトリではないので <code>DEV_HOME</code> を持たないルールです（ <code>ATELIER_HOME</code> にある時点で独立した扱いをしない方針、<code>ATELIER_HOME</code> の一部という認識）</li>
+<li>git のデフォルトブランチは main 設定です</li>
+<li>github のユーザーページは gh-pages ブランチ設定です</li>
+<li><code>gumi278.zsh</code> はあちこちで git を試行錯誤すると github 用の git アカウント登録をするのがめんどくさくて（タイプミスもするし）、一括でローカル登録するためのスクリプトです（コミットの GPG 署名強制フラグの設定までする、もちろん <code>700</code> です）</li>
+<li>git 接続は ssh です（ keychain に登録済み）</li>
+<li><code>.gitignore</code> は最小限で、開発場所ごとのルールは <code>.git/info/exclude</code> で指定します</li>
+<li>そういうわけで <code>.gitignore</code> のテンプレートが <code>ATELIER_HOME</code> にあるのでそれを使う</li>
+<li>よく考えたら <code>${ATELIER_HOME}/gumi278/build</code> は毎回ビルド結果生成するライフサイクルなので <code>.DS_Store</code> ができるタイミングはないのかもしれない（ <code>.gitignore</code> 不要？）</li>
+<li>最後に <code>.git</code> を消しているのは、２度走った場合に前回の影響をなくするための保険です</li>
+<li>履歴管理せず、毎回完全新規で上書きです</li>
+<li>Discord から指定されている URL で指定のファイルが取得できるように準備します（ <code>${ATELIER_HOME}/gumi278/static</code> が <code>build/</code> にファイルコピーされるということを利用）</li>
+</ul>
+<p><code>package.json</code> に <code>deploy</code> として組み込んで使います。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="こんな感じ">こんな感じ<a href="https://gumi278.quuix.org/blog/001104A#%E3%81%93%E3%82%93%E3%81%AA%E6%84%9F%E3%81%98" class="hash-link" aria-label="こんな感じ への直接リンク" title="こんな感じ への直接リンク">​</a></h2>
+<p>deploy が終わってから Discord で「認証」ボタンを押すと、すぐ通りました。</p>
+<p>これで http ベースのドメイン認証ができた、ということになります。</p>
+<img src="https://gumi278.quuix.org/blog/001104A-discord01@2x.png" width="314" alt="プロフィールに登録" class="with-border">
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="うまくいかない場合もあるみたい">うまくいかない場合もあるみたい<a href="https://gumi278.quuix.org/blog/001104A#%E3%81%86%E3%81%BE%E3%81%8F%E3%81%84%E3%81%8B%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88%E3%82%82%E3%81%82%E3%82%8B%E3%81%BF%E3%81%9F%E3%81%84" class="hash-link" aria-label="うまくいかない場合もあるみたい への直接リンク" title="うまくいかない場合もあるみたい への直接リンク">​</a></h2>
+<p>AI がいうには、DNS の TXT レコード登録による認証のほうがトラブルは少ないそうです。</p>
+<ul>
+<li>ファイルがリポジトリに存在するのに、http で取得しようとすると無いと言われる（混んでてマッピングが遅れて まだ無い状態を見に行って、その結果をキャッシュしてしまったのかな？）</li>
+<li><code>npx gh-pages</code> で対応できない（利用者多いんだそうです、私も使ってました）</li>
+<li>認証のルールが明確では無い（ファイルを一定時間間隔で要求するはずで、deploy 中のあやふやなタイミングでファイルが返せなかったら reject 状態になる？）</li>
+</ul>
+<p>github なので git で無理っとしましたが、http ベースの認証は ftp でファイルを置くシステムを想定した仕組みっぽいなあ、と感じます。</p>
+<div><p class="contact">指摘や感想などあれば、<a href="https://github.com/gumi278/gumi278.github.io/issues">issue</a> までお願いします！</p></div>]]></content:encoded>
+            <category>Discord</category>
+        </item>
+        <item>
+            <title><![CDATA[案内リンクの位置]]></title>
+            <link>https://gumi278.quuix.org/blog/000731A</link>
+            <guid>https://gumi278.quuix.org/blog/000731A</guid>
+            <pubDate>Sun, 09 Nov 2025 01:03:00 GMT</pubDate>
+            <description><![CDATA[よくある「次へ」「前へ」案内の挙動についてです。]]></description>
+            <content:encoded><![CDATA[<p>よくある「次へ」「前へ」案内の挙動についてです。</p>
+<!-- -->
+<p>このエントリーでは Docusaurus の blog コンテントタイプのナビゲーションに関する、個人的な UI 提案を紹介しています。</p>
+<p>公式テーマの設計思想（自由な UX 選択）に基づき、別の方向性を試したものです。
+この提案は「代替案のひとつ」として記録しており、公式の挙動に異を唱えるものではありません。</p>
+<p>Docusaurus の Classic Theme を対象にしています。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="背景">背景<a href="https://gumi278.quuix.org/blog/000731A#%E8%83%8C%E6%99%AF" class="hash-link" aria-label="背景 への直接リンク" title="背景 への直接リンク">​</a></h2>
+<p>Docusaurus は docs コンテントタイプと blog コンテントタイプの２つがあって、それらのページは横３段構成です。</p>
+<p>左がページのインデックス、中央がページ本体、右がページ内インデックスです。
+そのうちのページ本体には、下部に前後の記事への案内部分があります。
+その案内部分が docs と blog とを比べると違和感を覚えた、というのが発端です。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="標準実装">標準実装<a href="https://gumi278.quuix.org/blog/000731A#%E6%A8%99%E6%BA%96%E5%AE%9F%E8%A3%85" class="hash-link" aria-label="標準実装 への直接リンク" title="標準実装 への直接リンク">​</a></h3>
+<p>ソート制御していません。</p>
+<p>こちらは docs の一覧。</p>
+<img src="https://gumi278.quuix.org/blog/000731A-base01.png" alt="docs一覧" class="with-border">
+<p>こちらは blog の一覧。</p>
+<img src="https://gumi278.quuix.org/blog/000731A-base02.png" width="1092" alt="blog一覧" class="with-border">
+<p>こちらは blog の記事ページ。</p>
+<img src="https://gumi278.quuix.org/blog/000731A-base03.png" alt="blog記事" class="with-border">
+<p>「新しい記事」が左で、「過去の記事」が右、ということに違和感。
+私がもつ <strong>左が「戻る」、右が「進む」</strong> という認識とのズレを感じるのです。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="うんでもね">うん、でもね？<a href="https://gumi278.quuix.org/blog/000731A#%E3%81%86%E3%82%93%E3%81%A7%E3%82%82%E3%81%AD" class="hash-link" aria-label="うん、でもね？ への直接リンク" title="うん、でもね？ への直接リンク">​</a></h3>
+<p>案内部分は左右にそれぞれリンクがあります。</p>
+<p>標準実装は docs と blog どちらも <strong>左が「インデックスを上に辿るリンク（戻る）」で、右が「インデックスを下に辿るリンク（進む）」</strong> です。</p>
+<p>とても明快ですよね、データとして辿る方向が一律です。
+それが標準実装の意図した振る舞いなのだと思います。</p>
+<p>それにたいして、私の認識でいう「戻る / 進む」って、曖昧。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="うんうんでもね">うんうん、でもね？<a href="https://gumi278.quuix.org/blog/000731A#%E3%81%86%E3%82%93%E3%81%86%E3%82%93%E3%81%A7%E3%82%82%E3%81%AD" class="hash-link" aria-label="うんうん、でもね？ への直接リンク" title="うんうん、でもね？ への直接リンク">​</a></h3>
+<p>コンテントタイプの違いなんです。</p>
+<p>docs コンテントタイプは 整理されたページを「読み進める = インデックスを進める」感覚。
+blog コンテントタイプは 時間軸基準のページを「読み進める = 新しい時間へ進める」感覚。</p>
+<p>だけど私がもつこの感覚は、全員が持つものではないし、強制できるものでもない。
+これが UX と言われている領域。</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="ux-の領域">UX の領域<a href="https://gumi278.quuix.org/blog/000731A#ux-%E3%81%AE%E9%A0%98%E5%9F%9F" class="hash-link" aria-label="UX の領域 への直接リンク" title="UX の領域 への直接リンク">​</a></h4>
+<p>私は体験を感覚側から推察して構築していくのですが、伝えるための言語化がうまくできなかったので、AI に分析してもらいました。</p>
+<div class="image"><img src="https://gumi278.quuix.org/blog/000731A-ai01A.webp" width="512" alt="UXについてAIからの指摘"></div>
+<!-- -->
+<p>私は感覚と結果を結びつけるのが早すぎる、ということを指摘してくれています
+（私ってば感覚派だったのね…）。</p>
+<p>そして１歩踏み込んだ応答を AI が揺らぎなく行えるということは、このような事柄を扱うことに慣れているということです。
+よくある話なんですね。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="つまり">つまり？<a href="https://gumi278.quuix.org/blog/000731A#%E3%81%A4%E3%81%BE%E3%82%8A" class="hash-link" aria-label="つまり？ への直接リンク" title="つまり？ への直接リンク">​</a></h3>
+<p>「いろいろあっていい」ってことです。</p>
+<p>それぞれの実装が、正解や 不正解というわけではなく。
+さらにいえば…</p>
+<p><a href="https://github.com/facebook/docusaurus/discussions/11534" target="_blank" rel="noopener noreferrer"> <strong>「私の感じたままに実装していい自由がある」</strong> </a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="私の主観による-もう一つの実装">私の主観による もう一つの実装<a href="https://gumi278.quuix.org/blog/000731A#%E7%A7%81%E3%81%AE%E4%B8%BB%E8%A6%B3%E3%81%AB%E3%82%88%E3%82%8B-%E3%82%82%E3%81%86%E4%B8%80%E3%81%A4%E3%81%AE%E5%AE%9F%E8%A3%85" class="hash-link" aria-label="私の主観による もう一つの実装 への直接リンク" title="私の主観による もう一つの実装 への直接リンク">​</a></h3>
+<p>というわけで、こんなカスタマイズをしてみました。</p>
+<img src="https://gumi278.quuix.org/blog/000731A-custom01.png" alt="blog案内リンクの左右入れ替え案" class="with-border">
+<p>blog の案内だけが、左に「過去の記事」、右に「新しい記事」のリンクに書き変わります。
+インデックスに変化はありません。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="コード">コード<a href="https://gumi278.quuix.org/blog/000731A#%E3%82%B3%E3%83%BC%E3%83%89" class="hash-link" aria-label="コード への直接リンク" title="コード への直接リンク">​</a></h2>
+<p>前置きはこれくらいにして、実装コードです。
+よかったら使ってください。</p>
+<div class="language-tsx codeBlockContainer_Ckt0 theme-code-block" style="--prism-background-color:hsl(230, 1%, 98%);--prism-color:hsl(230, 8%, 24%)"><div class="codeBlockTitle_OeMC">/src/theme/BlogPostPaginator/index.tsx</div><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-tsx codeBlock_bY9V thin-scrollbar" style="background-color:hsl(230, 1%, 98%);color:hsl(230, 8%, 24%)"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token comment" style="color:hsl(230, 4%, 64%)">/*</span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token comment" style="color:hsl(230, 4%, 64%)"> * MIT License</span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token comment" style="color:hsl(230, 4%, 64%)"> * Original Docusaurus Classic Theme code</span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token comment" style="color:hsl(230, 4%, 64%)"> * Modified and Copyright (c) 2025 gumi278</span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token comment" style="color:hsl(230, 4%, 64%)"> *</span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token comment" style="color:hsl(230, 4%, 64%)"> * Confirmed working environment:</span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token comment" style="color:hsl(230, 4%, 64%)"> *   - Docusaurus v3.8.1</span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token comment" style="color:hsl(230, 4%, 64%)"> *   - Node.js v22.17.0</span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token comment" style="color:hsl(230, 4%, 64%)"> *   - React v19.1.0</span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token comment" style="color:hsl(230, 4%, 64%)"> *   - npm v10.9.2</span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token comment" style="color:hsl(230, 4%, 64%)"> *</span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token comment" style="color:hsl(230, 4%, 64%)"> * This code is free to use, modify, and distribute.</span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token comment" style="color:hsl(230, 4%, 64%)"> */</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token keyword" style="color:hsl(301, 63%, 40%)">import</span><span class="token plain"> </span><span class="token maybe-class-name">React</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">,</span><span class="token plain"> </span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">{</span><span class="token keyword" style="color:hsl(301, 63%, 40%)">type</span><span class="token plain"> </span><span class="token class-name" style="color:hsl(35, 99%, 36%)">ReactNode</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token plain"> </span><span class="token keyword" style="color:hsl(301, 63%, 40%)">from</span><span class="token plain"> </span><span class="token string" style="color:hsl(119, 34%, 47%)">'react'</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token keyword" style="color:hsl(301, 63%, 40%)">import</span><span class="token plain"> </span><span class="token imports maybe-class-name">Translate</span><span class="token imports punctuation" style="color:hsl(119, 34%, 47%)">,</span><span class="token imports"> </span><span class="token imports punctuation" style="color:hsl(119, 34%, 47%)">{</span><span class="token imports">translate</span><span class="token imports punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token plain"> </span><span class="token keyword" style="color:hsl(301, 63%, 40%)">from</span><span class="token plain"> </span><span class="token string" style="color:hsl(119, 34%, 47%)">'@docusaurus/Translate'</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token keyword" style="color:hsl(301, 63%, 40%)">import</span><span class="token plain"> </span><span class="token imports maybe-class-name">PaginatorNavLink</span><span class="token plain"> </span><span class="token keyword" style="color:hsl(301, 63%, 40%)">from</span><span class="token plain"> </span><span class="token string" style="color:hsl(119, 34%, 47%)">'@theme/PaginatorNavLink'</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token keyword" style="color:hsl(301, 63%, 40%)">import</span><span class="token plain"> </span><span class="token keyword" style="color:hsl(301, 63%, 40%)">type</span><span class="token plain"> </span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">{</span><span class="token maybe-class-name">Props</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token plain"> </span><span class="token keyword" style="color:hsl(301, 63%, 40%)">from</span><span class="token plain"> </span><span class="token string" style="color:hsl(119, 34%, 47%)">'@theme/BlogPostPaginator'</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token keyword" style="color:hsl(301, 63%, 40%)">export</span><span class="token plain"> </span><span class="token keyword" style="color:hsl(301, 63%, 40%)">default</span><span class="token plain"> </span><span class="token keyword" style="color:hsl(301, 63%, 40%)">function</span><span class="token plain"> </span><span class="token function" style="color:hsl(221, 87%, 60%)">BlogPostPaginator</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token plain">props</span><span class="token operator" style="color:hsl(221, 87%, 60%)">:</span><span class="token plain"> </span><span class="token maybe-class-name">Props</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token operator" style="color:hsl(221, 87%, 60%)">:</span><span class="token plain"> </span><span class="token maybe-class-name">ReactNode</span><span class="token plain"> </span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">	</span><span class="token keyword" style="color:hsl(301, 63%, 40%)">const</span><span class="token plain"> newerPost </span><span class="token operator" style="color:hsl(221, 87%, 60%)">=</span><span class="token plain"> props</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">.</span><span class="token property-access">prevItem</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">	</span><span class="token keyword" style="color:hsl(301, 63%, 40%)">const</span><span class="token plain"> olderPost </span><span class="token operator" style="color:hsl(221, 87%, 60%)">=</span><span class="token plain"> props</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">.</span><span class="token property-access">nextItem</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">	</span><span class="token keyword" style="color:hsl(301, 63%, 40%)">return</span><span class="token plain"> </span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">		</span><span class="token tag punctuation" style="color:hsl(119, 34%, 47%)">&lt;</span><span class="token tag" style="color:hsl(5, 74%, 59%)">nav</span><span class="token tag" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag" style="color:hsl(5, 74%, 59%)">			</span><span class="token tag attr-name" style="color:hsl(35, 99%, 36%)">className</span><span class="token tag attr-value punctuation attr-equals" style="color:hsl(119, 34%, 47%)">=</span><span class="token tag attr-value punctuation" style="color:hsl(119, 34%, 47%)">"</span><span class="token tag attr-value" style="color:hsl(119, 34%, 47%)">pagination-nav docusaurus-mt-lg</span><span class="token tag attr-value punctuation" style="color:hsl(119, 34%, 47%)">"</span><span class="token tag" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag" style="color:hsl(5, 74%, 59%)">			</span><span class="token tag attr-name" style="color:hsl(35, 99%, 36%)">aria-label</span><span class="token tag script language-javascript script-punctuation punctuation" style="color:hsl(119, 34%, 47%)">=</span><span class="token tag script language-javascript punctuation" style="color:hsl(119, 34%, 47%)">{</span><span class="token tag script language-javascript function" style="color:hsl(221, 87%, 60%)">translate</span><span class="token tag script language-javascript punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token tag script language-javascript punctuation" style="color:hsl(119, 34%, 47%)">{</span><span class="token tag script language-javascript" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag script language-javascript" style="color:hsl(5, 74%, 59%)">				id</span><span class="token tag script language-javascript operator" style="color:hsl(221, 87%, 60%)">:</span><span class="token tag script language-javascript" style="color:hsl(5, 74%, 59%)"> </span><span class="token tag script language-javascript string" style="color:hsl(119, 34%, 47%)">'theme.blog.post.paginator.navAriaLabel'</span><span class="token tag script language-javascript punctuation" style="color:hsl(119, 34%, 47%)">,</span><span class="token tag script language-javascript" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag script language-javascript" style="color:hsl(5, 74%, 59%)">				message</span><span class="token tag script language-javascript operator" style="color:hsl(221, 87%, 60%)">:</span><span class="token tag script language-javascript" style="color:hsl(5, 74%, 59%)"> </span><span class="token tag script language-javascript string" style="color:hsl(119, 34%, 47%)">'Blog post page navigation'</span><span class="token tag script language-javascript punctuation" style="color:hsl(119, 34%, 47%)">,</span><span class="token tag script language-javascript" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag script language-javascript" style="color:hsl(5, 74%, 59%)">				description</span><span class="token tag script language-javascript operator" style="color:hsl(221, 87%, 60%)">:</span><span class="token tag script language-javascript" style="color:hsl(5, 74%, 59%)"> </span><span class="token tag script language-javascript string" style="color:hsl(119, 34%, 47%)">'The ARIA label for the blog posts pagination'</span><span class="token tag script language-javascript punctuation" style="color:hsl(119, 34%, 47%)">,</span><span class="token tag script language-javascript" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag script language-javascript" style="color:hsl(5, 74%, 59%)">			</span><span class="token tag script language-javascript punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token tag script language-javascript punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token tag script language-javascript punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token tag punctuation" style="color:hsl(119, 34%, 47%)">&gt;</span><span class="token plain-text"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain-text">			</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">{</span><span class="token plain">olderPost </span><span class="token operator" style="color:hsl(221, 87%, 60%)">&amp;&amp;</span><span class="token plain"> </span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">				</span><span class="token tag punctuation" style="color:hsl(119, 34%, 47%)">&lt;</span><span class="token tag class-name" style="color:hsl(35, 99%, 36%)">PaginatorNavLink</span><span class="token tag" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag" style="color:hsl(5, 74%, 59%)">					</span><span class="token tag spread punctuation" style="color:hsl(119, 34%, 47%)">{</span><span class="token tag spread operator" style="color:hsl(221, 87%, 60%)">...</span><span class="token tag spread" style="color:hsl(5, 74%, 59%)">olderPost</span><span class="token tag spread punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token tag" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag" style="color:hsl(5, 74%, 59%)">					</span><span class="token tag attr-name" style="color:hsl(35, 99%, 36%)">subLabel</span><span class="token tag script language-javascript script-punctuation punctuation" style="color:hsl(119, 34%, 47%)">=</span><span class="token tag script language-javascript punctuation" style="color:hsl(119, 34%, 47%)">{</span><span class="token tag script language-javascript" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag script language-javascript" style="color:hsl(5, 74%, 59%)">						</span><span class="token tag script language-javascript tag punctuation" style="color:hsl(119, 34%, 47%)">&lt;</span><span class="token tag script language-javascript tag class-name" style="color:hsl(35, 99%, 36%)">Translate</span><span class="token tag script language-javascript tag" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag script language-javascript tag" style="color:hsl(5, 74%, 59%)">							</span><span class="token tag script language-javascript tag attr-name" style="color:hsl(35, 99%, 36%)">id</span><span class="token tag script language-javascript tag attr-value punctuation attr-equals" style="color:hsl(119, 34%, 47%)">=</span><span class="token tag script language-javascript tag attr-value punctuation" style="color:hsl(119, 34%, 47%)">"</span><span class="token tag script language-javascript tag attr-value" style="color:hsl(119, 34%, 47%)">theme.blog.post.paginator.olderPost</span><span class="token tag script language-javascript tag attr-value punctuation" style="color:hsl(119, 34%, 47%)">"</span><span class="token tag script language-javascript tag" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag script language-javascript tag" style="color:hsl(5, 74%, 59%)">							</span><span class="token tag script language-javascript tag attr-name" style="color:hsl(35, 99%, 36%)">description</span><span class="token tag script language-javascript tag attr-value punctuation attr-equals" style="color:hsl(119, 34%, 47%)">=</span><span class="token tag script language-javascript tag attr-value punctuation" style="color:hsl(119, 34%, 47%)">"</span><span class="token tag script language-javascript tag attr-value" style="color:hsl(119, 34%, 47%)">The blog post button label to navigate to the older/next post</span><span class="token tag script language-javascript tag attr-value punctuation" style="color:hsl(119, 34%, 47%)">"</span><span class="token tag script language-javascript tag" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag script language-javascript tag" style="color:hsl(5, 74%, 59%)">						</span><span class="token tag script language-javascript tag punctuation" style="color:hsl(119, 34%, 47%)">&gt;</span><span class="token tag script language-javascript plain-text" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag script language-javascript plain-text" style="color:hsl(5, 74%, 59%)">							Older post</span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag script language-javascript plain-text" style="color:hsl(5, 74%, 59%)">						</span><span class="token tag script language-javascript tag punctuation" style="color:hsl(119, 34%, 47%)">&lt;/</span><span class="token tag script language-javascript tag class-name" style="color:hsl(35, 99%, 36%)">Translate</span><span class="token tag script language-javascript tag punctuation" style="color:hsl(119, 34%, 47%)">&gt;</span><span class="token tag script language-javascript" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag script language-javascript" style="color:hsl(5, 74%, 59%)">					</span><span class="token tag script language-javascript punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token tag" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag" style="color:hsl(5, 74%, 59%)">					</span><span class="token tag attr-name" style="color:hsl(35, 99%, 36%)">isNext</span><span class="token tag script language-javascript script-punctuation punctuation" style="color:hsl(119, 34%, 47%)">=</span><span class="token tag script language-javascript punctuation" style="color:hsl(119, 34%, 47%)">{</span><span class="token tag script language-javascript boolean" style="color:hsl(35, 99%, 36%)">false</span><span class="token tag script language-javascript punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token tag" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag" style="color:hsl(5, 74%, 59%)">				</span><span class="token tag punctuation" style="color:hsl(119, 34%, 47%)">/&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">			</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token plain-text"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain-text">			</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">{</span><span class="token plain">newerPost </span><span class="token operator" style="color:hsl(221, 87%, 60%)">&amp;&amp;</span><span class="token plain"> </span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">(</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">				</span><span class="token tag punctuation" style="color:hsl(119, 34%, 47%)">&lt;</span><span class="token tag class-name" style="color:hsl(35, 99%, 36%)">PaginatorNavLink</span><span class="token tag" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag" style="color:hsl(5, 74%, 59%)">					</span><span class="token tag spread punctuation" style="color:hsl(119, 34%, 47%)">{</span><span class="token tag spread operator" style="color:hsl(221, 87%, 60%)">...</span><span class="token tag spread" style="color:hsl(5, 74%, 59%)">newerPost</span><span class="token tag spread punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token tag" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag" style="color:hsl(5, 74%, 59%)">					</span><span class="token tag attr-name" style="color:hsl(35, 99%, 36%)">subLabel</span><span class="token tag script language-javascript script-punctuation punctuation" style="color:hsl(119, 34%, 47%)">=</span><span class="token tag script language-javascript punctuation" style="color:hsl(119, 34%, 47%)">{</span><span class="token tag script language-javascript" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag script language-javascript" style="color:hsl(5, 74%, 59%)">						</span><span class="token tag script language-javascript tag punctuation" style="color:hsl(119, 34%, 47%)">&lt;</span><span class="token tag script language-javascript tag class-name" style="color:hsl(35, 99%, 36%)">Translate</span><span class="token tag script language-javascript tag" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag script language-javascript tag" style="color:hsl(5, 74%, 59%)">							</span><span class="token tag script language-javascript tag attr-name" style="color:hsl(35, 99%, 36%)">id</span><span class="token tag script language-javascript tag attr-value punctuation attr-equals" style="color:hsl(119, 34%, 47%)">=</span><span class="token tag script language-javascript tag attr-value punctuation" style="color:hsl(119, 34%, 47%)">"</span><span class="token tag script language-javascript tag attr-value" style="color:hsl(119, 34%, 47%)">theme.blog.post.paginator.newerPost</span><span class="token tag script language-javascript tag attr-value punctuation" style="color:hsl(119, 34%, 47%)">"</span><span class="token tag script language-javascript tag" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag script language-javascript tag" style="color:hsl(5, 74%, 59%)">							</span><span class="token tag script language-javascript tag attr-name" style="color:hsl(35, 99%, 36%)">description</span><span class="token tag script language-javascript tag attr-value punctuation attr-equals" style="color:hsl(119, 34%, 47%)">=</span><span class="token tag script language-javascript tag attr-value punctuation" style="color:hsl(119, 34%, 47%)">"</span><span class="token tag script language-javascript tag attr-value" style="color:hsl(119, 34%, 47%)">The blog post button label to navigate to the newer/previous post</span><span class="token tag script language-javascript tag attr-value punctuation" style="color:hsl(119, 34%, 47%)">"</span><span class="token tag script language-javascript tag" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag script language-javascript tag" style="color:hsl(5, 74%, 59%)">						</span><span class="token tag script language-javascript tag punctuation" style="color:hsl(119, 34%, 47%)">&gt;</span><span class="token tag script language-javascript plain-text" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag script language-javascript plain-text" style="color:hsl(5, 74%, 59%)">							Newer post</span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag script language-javascript plain-text" style="color:hsl(5, 74%, 59%)">						</span><span class="token tag script language-javascript tag punctuation" style="color:hsl(119, 34%, 47%)">&lt;/</span><span class="token tag script language-javascript tag class-name" style="color:hsl(35, 99%, 36%)">Translate</span><span class="token tag script language-javascript tag punctuation" style="color:hsl(119, 34%, 47%)">&gt;</span><span class="token tag script language-javascript" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag script language-javascript" style="color:hsl(5, 74%, 59%)">					</span><span class="token tag script language-javascript punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token tag" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag" style="color:hsl(5, 74%, 59%)">					</span><span class="token tag attr-name" style="color:hsl(35, 99%, 36%)">isNext</span><span class="token tag script language-javascript script-punctuation punctuation" style="color:hsl(119, 34%, 47%)">=</span><span class="token tag script language-javascript punctuation" style="color:hsl(119, 34%, 47%)">{</span><span class="token tag script language-javascript boolean" style="color:hsl(35, 99%, 36%)">true</span><span class="token tag script language-javascript punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token tag" style="color:hsl(5, 74%, 59%)"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token tag" style="color:hsl(5, 74%, 59%)">				</span><span class="token tag punctuation" style="color:hsl(119, 34%, 47%)">/&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">			</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">}</span><span class="token plain-text"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain-text">		</span><span class="token tag punctuation" style="color:hsl(119, 34%, 47%)">&lt;/</span><span class="token tag" style="color:hsl(5, 74%, 59%)">nav</span><span class="token tag punctuation" style="color:hsl(119, 34%, 47%)">&gt;</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">	</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">)</span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain"></span><span class="token punctuation" style="color:hsl(119, 34%, 47%)">}</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="やったこと">やったこと<a href="https://gumi278.quuix.org/blog/000731A#%E3%82%84%E3%81%A3%E3%81%9F%E3%81%93%E3%81%A8" class="hash-link" aria-label="やったこと への直接リンク" title="やったこと への直接リンク">​</a></h2>
+<p>ソースを取得して、書き換えました。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ソースの取得">ソースの取得<a href="https://gumi278.quuix.org/blog/000731A#%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%AE%E5%8F%96%E5%BE%97" class="hash-link" aria-label="ソースの取得 への直接リンク" title="ソースの取得 への直接リンク">​</a></h3>
+<p>途中の質問には、<code>TypeScript</code> / <code>YES</code> と答えました。</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-background-color:hsl(230, 1%, 98%);--prism-color:hsl(230, 8%, 24%)"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="background-color:hsl(230, 1%, 98%);color:hsl(230, 8%, 24%)"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:hsl(230, 8%, 24%)"><span class="token plain">% npx docusaurus swizzle @docusaurus/theme-classic BlogPostPaginator</span><br></span></code></pre></div></div>
+<p>取得した index.tsx に変更を加えます。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="場所の入れ替え">場所の入れ替え<a href="https://gumi278.quuix.org/blog/000731A#%E5%A0%B4%E6%89%80%E3%81%AE%E5%85%A5%E3%82%8C%E6%9B%BF%E3%81%88" class="hash-link" aria-label="場所の入れ替え への直接リンク" title="場所の入れ替え への直接リンク">​</a></h3>
+<p><code>{nextItem &amp;&amp; (...</code> ブロックと <code>{prevItem &amp;&amp; (...</code> ブロックを入れ替えます。</p>
+<p>入れ替えるというのは、この要素そのものを記述する順番を入れ替えるということです。
+ブレス記号による有効範囲ブロック単位で入れ替えます。</p>
+<p><code>isNext={false}</code> を nextItem の subLabel の後ろに同じレベルで追加しました。
+また、<code>isNext={true}</code> を prevItem の subLabel の後ろに同じレベルで追加しました。</p>
+<p>これで左側に「過去の記事」、右側に「新しい記事」の案内リンクになります。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="実はよくわかってない">実はよくわかってない<a href="https://gumi278.quuix.org/blog/000731A#%E5%AE%9F%E3%81%AF%E3%82%88%E3%81%8F%E3%82%8F%E3%81%8B%E3%81%A3%E3%81%A6%E3%81%AA%E3%81%84" class="hash-link" aria-label="実はよくわかってない への直接リンク" title="実はよくわかってない への直接リンク">​</a></h2>
+<p>ぶっちゃけ TypeScript や JavaScript、React のことは さっぱりわかりません
+（syntax の理解があやしいレベル）。</p>
+<p>コードとデータ構造をみて「これでいいのかなー…？」と 手を動かして試しながら進んで、意図した振る舞いになった、という代物です。
+そのため、もしかしたら間違えているかもしれません（より良い書き方や実装方法があるのかも？）。</p>
+<p>そんな私の投稿に答えてくれた Docusaurus チームの人に感謝です。</p>
+<div><p class="contact">指摘や感想などあれば、<a href="https://github.com/gumi278/gumi278.github.io/issues">issue</a> までお願いします！</p></div>
+<div class="disclaimer"><p>本記事で使用しているスクリーンショットは、OpenAI の対話型 AI との実際の会話画面を記録したものです。 掲載内容は AI が生成した回答を含み、正確性・完全性を保証するものではありません。</p></div>]]></content:encoded>
+            <category>docusaurus</category>
+            <category>blog</category>
+            <category>UX</category>
+        </item>
+    </channel>
+</rss>
