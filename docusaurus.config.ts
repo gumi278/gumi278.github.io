@@ -120,10 +120,6 @@ themeConfig: {
 }
 } satisfies Preset.ThemeConfig,
   
-customFields: {
-	useCDN: false,
-	cdnBase: "https://cdn.jsdelivr.net/gh/gumi278/gumi278.github.io@gh-pages",
-},
 
 };
 

@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef, ReactNode } from 'react';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 type Props = {
   src: string;
@@ -38,19 +37,13 @@ export default function BlogWideImage({
       return () => img.removeEventListener("load", applyWidth);
     }
   }, [src]);
-  
-  const { siteConfig } = useDocusaurusContext();
-  const { useCDN, cdnBase } = siteConfig.customFields;
-  const url = useCDN
-    ? `${cdnBase}${src}`
-    : `${src}`;
 
   return (
     <div className='image'>
       <figure>
         <img
           ref={imgRef}
-          src={url}
+          src={src}
           alt={alt}
           className={className}
           width={pixelWidth ?? undefined}

@@ -3,7 +3,7 @@ permalink: /blog/001104A
 title: Discordの接続
 tags: [Discord]
 authors: [gumi278]
-date: 2025-11-04T00:00:00
+date: 2025-11-27T15:06:29
 ---
 
 Discord の「接続」で domain を登録しました。
@@ -11,6 +11,14 @@ Discord の「接続」で domain を登録しました。
 {/* truncate */}
 
 ***
+
+<details>
+  <summary>更新履歴</summary>
+
+  - 2025/11/27：「移行しました」追加
+  - 2025/11/04：公開  
+
+</details>
 
 今現在は github のユーザーページのリポジトリを使っていて、独自ドメインのルートにリポジトリの gh-pages ブランチをマッピングしてもらってます。
 
@@ -82,6 +90,14 @@ exit 0
 - Discord から指定されている URL で指定のファイルが取得できるように準備します（ `${ATELIER_HOME}/gumi278/static` が `build/` にファイルコピーされるということを利用）
 
 `package.json` に `deploy` として組み込んで使います。
+
+### 移行しました
+
+actions + artifacts + deploy の方式に移行しました。
+つまり git 管理になり、構成ファイルを公開化しました。
+なので、ついに atelier から卒業して、自分の居場所を見つけることができました。
+
+git 組み立てには役にたつかもしれないので、gh-pages ブランチへ毎回 git 構築して強制上書きするサンプルは残しておきます。
 
 
 ## こんな感じ

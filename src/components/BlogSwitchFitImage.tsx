@@ -1,6 +1,5 @@
 
 import React, { useState, useEffect, useRef, ReactNode } from 'react';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 function useMediaQuery(query: string) {
   const [match, setMatch] = useState(false);
@@ -53,14 +52,8 @@ export default function BlogSwitchFitImage({
   }, [isSmall]);
 
 
-  const { siteConfig } = useDocusaurusContext();
-  const { useCDN, cdnBase } = siteConfig.customFields;
-  const relative = `${base}${isSmall ? "@S.webp" : "@L.webp"}`;
+  const src = `${base}${isSmall ? "@S.webp" : "@L.webp"}`;
 
-  const src = useCDN
-    ? `${cdnBase}${relative}`
-    : `${relative}`;
-  
   return (
     <div className='image'>
       <figure>
