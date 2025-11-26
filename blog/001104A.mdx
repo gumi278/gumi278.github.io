@@ -1,0 +1,107 @@
+---
+permalink: /blog/001104A
+title: Discordの接続
+tags: [Discord]
+authors: [gumi278]
+date: 2025-11-04T00:00:00
+---
+
+Discord の「接続」で domain を登録しました。
+
+{/* truncate */}
+
+***
+
+今現在は github のユーザーページのリポジトリを使っていて、独自ドメインのルートにリポジトリの gh-pages ブランチをマッピングしてもらってます。
+
+この環境でリーチする方法って何があって、何ができるのか試しておきたい、という考えから 登録してみました。
+
+html 構造の構築は docusaurus を使っています。
+
+
+## 方法は２つ
+
+- DNS の TXT レコードで特定のテキストを登録する方法
+- 指定の URL に指定のテキストが入ったファイルを置く方法
+
+AI は DNS の TXT レコードを登録する方法をめっちゃ薦めてくるんだけど…
+
+
+## ファイルを置く方法を選択
+
+メールを独自ドメインで使っているので、ファイルを置くことにしました。
+
+当初は「 github の独自ドメインで CNAME ファイルを置くから、それと同じでしょ」と考えていましたが、`npx gh-pages` から無視されてしまいました
+（ github 用のパッケージなので Discord の都合を知らないのです、よく考えたら当たり前でした）。
+
+というわけで、`npx gh-pages` から卒業します。
+
+
+### git 転送が必要
+
+github なので、html であっても git 管理です。
+
+つまり docusaurus の「毎回ビルド結果生成」に git を合わせる必要があるので、自前スクリプトを作りました。
+マイルール全開ですが、よかったら何かの参考にどうぞ。
+
+```bash title="deploy.zsh"
+#!/bin/zsh
+
+cd "${ATELIER_HOME}/gumi278/build"
+
+git init
+${ATELIER_HOME}/firm/gumi278.zsh
+cp "${ATELIER_HOME}/.gitignore" ./
+git add -A
+git commit -m "custom deploy"
+git remote add origin git@github.com:gumi278/gumi278.github.io.git
+git push --force origin main:gh-pages
+rm -rf .git
+
+exit 0
+```
+
+- `build` ディレクトリは毎回作り直しなので、git も毎回初期化してます
+- `ATELIER_HOME` は `.zprofile` で定義しているユーザーグローバルな環境変数（絶対パス）です
+- 全ての開発に共通する場所として `ATELIER_HOME` を使っています
+- 開発ディレクトリは `ATELIER_HOME` の下ではなく、外にあります（断絶するため）
+- `WORK_HOME` でもいいんだけど、揮発性が高い印象が…（間違えて消しそう）
+- `DEV_HOME` はそれぞれの開発ディレクトリの `.envrc` でそれぞれの開発ディレクトリルートを定義するルールにしてるのでダメ
+- 全ての開発に共通するといっても 全部混ぜた管理をしているのではなくて、どちらかと言うと隔離場所の扱いです（`.gitignore` や `.git/info/exclude` は原理的に完全ではない）
+- そしてどこにも居場所がないファイルたちも集まってきた（ github のユーザーページもこちらにきた）
+- github のユーザーページは開発ディレクトリではないので `DEV_HOME` を持たないルールです（ `ATELIER_HOME` にある時点で独立した扱いをしない方針、`ATELIER_HOME` の一部という認識）
+- git のデフォルトブランチは main 設定です
+- github のユーザーページは gh-pages ブランチ設定です
+- `gumi278.zsh` はあちこちで git を試行錯誤すると github 用の git アカウント登録をするのがめんどくさくて（タイプミスもするし）、一括でローカル登録するためのスクリプトです（コミットの GPG 署名強制フラグの設定までする、もちろん `700` です）
+- git 接続は ssh です（ keychain に登録済み）
+- `.gitignore` は最小限で、開発場所ごとのルールは `.git/info/exclude` で指定します
+- そういうわけで `.gitignore` のテンプレートが `ATELIER_HOME` にあるのでそれを使う
+- よく考えたら `${ATELIER_HOME}/gumi278/build` は毎回ビルド結果生成するライフサイクルなので `.DS_Store` ができるタイミングはないのかもしれない（ `.gitignore` 不要？）
+- 最後に `.git` を消しているのは、２度走った場合に前回の影響をなくするための保険です
+- 履歴管理せず、毎回完全新規で上書きです
+- Discord から指定されている URL で指定のファイルが取得できるように準備します（ `${ATELIER_HOME}/gumi278/static` が `build/` にファイルコピーされるということを利用）
+
+`package.json` に `deploy` として組み込んで使います。
+
+
+## こんな感じ
+
+deploy が終わってから Discord で「認証」ボタンを押すと、すぐ通りました。
+
+これで http ベースのドメイン認証ができた、ということになります。
+ 
+<BlogSingleFixImage
+	src="/blog/001104A/001104A-discord01A.webp"
+	alt="プロフィールに登録"
+/>
+
+
+## うまくいかない場合もあるみたい
+
+AI がいうには、DNS の TXT レコード登録による認証のほうがトラブルは少ないそうです。
+
+- ファイルがリポジトリに存在するのに、http で取得しようとすると無いと言われる（混んでてマッピングが遅れて まだ無い状態を見に行って、その結果をキャッシュしてしまったのかな？）
+- `npx gh-pages` で対応できない（利用者多いんだそうです、私も使ってました）
+- 認証のルールが明確では無い（ファイルを一定時間間隔で要求するはずで、deploy 中のあやふやなタイミングでファイルが返せなかったら reject 状態になる？）
+
+github なので git で無理っとしましたが、http ベースの認証は ftp でファイルを置くシステムを想定した仕組みっぽいなあ、と感じます。

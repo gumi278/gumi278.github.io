@@ -1,0 +1,37 @@
+import React from "react";
+import styles from '@site/src/css/contact.module.css';
+
+
+export default function Contact() {
+  return (
+    <div className={styles.container}>
+      <h1>Contact</h1>
+
+      <form action="https://formspree.io/f/xqajevbj" method="POST">
+        <label className={styles.label}>
+          メールアドレス
+          <input
+            type="email"
+            name="email"
+            placeholder="任意"
+            className={styles.input}
+          />
+        </label>
+
+        <label className={styles.label}>
+          メッセージ
+          <textarea
+            name="message"
+            required
+            rows="5"
+            className={styles.textarea}
+          />
+        </label>
+
+        <button type="submit" className={styles.button}>
+          送信
+        </button>
+      </form>
+    </div>
+  );
+}

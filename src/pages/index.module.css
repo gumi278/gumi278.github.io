@@ -1,0 +1,119 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+
+ .localMain{
+  padding: 2rem;
+}
+
+
+.headWhiteBlock {
+  height: 6em;
+}
+@media (max-width: 700px) {
+.headWhiteBlock {
+  height: 1em;
+}
+}
+
+
+.gumi278 {
+  margin:auto;
+  font-family: 'M PLUS Rounded 1c', serif;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.kakkoBox {
+  margin:auto;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  position: relative;
+  border: 1px solid transparent;
+}
+.kakkoBox::before {
+  content: "「";
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 3em;
+  line-height: 1;
+  color: #043f83;
+  transform: translate(-50%, -50%);
+}
+.kakkoBox::after {
+  content: "」";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 3em;
+  line-height: 1;
+  color: #043f83;
+  transform: translate(50%, 50%);
+}
+
+
+.localContainer {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+@media (max-width: 700px) {
+.localContainer {
+  flex-direction: column;
+}
+}
+
+
+.avatar {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  margin-right: 2rem;
+  display: block;
+}
+@media (max-width: 700px) {
+  .avatar{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+   }
+}
+
+
+.textBlock p {
+  margin: 0.2rem 0;
+  color: color-mix(in srgb, var(--ifm-font-color-base) 85%, rgba(40,80,230,0.75));
+  text-shadow: 0.02em 0.02em 0.04em rgba(0, 0, 120, 0.10);
+}
+.textBlock a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+
+.nowrapBase{
+  white-space: nowrap;
+}
+
+
+.myname {
+  color: #0366d6;
+}
+
+
+.tailWhiteBlock {
+  height: 2em;
+}
+@media (max-width: 700px) {
+.tailWhiteBlock {
+  height: 0em;
+}
+}
